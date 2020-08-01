@@ -14,6 +14,7 @@
       "@/*": ["src/*"],
       "@s1/*": ["../shared1/*"],
       "@s2/*": ["../shared2/*"],
+      "@s3/*": ["shared3/*"],
     },
     "lib": [
       "esnext",
@@ -30,6 +31,8 @@
     "../shared1/**/*.vue",
     "../shared2/**/*.ts",
     "../shared2/**/*.vue",
+    "shared3/**/*.ts",
+    "shared3/**/*.vue",
   ],
   "exclude": [
     "node_modules"
